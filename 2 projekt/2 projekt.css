@@ -1,0 +1,59 @@
+body {
+	background-color: hsl(212, 45%, 89%); 
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.nienawidze_css{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.frame {
+	width: 400px;
+	border-radius: 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+.qr img{
+	width: 360px;
+	height: 360px;
+	align-content: center;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.text{
+	width: 360px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -15px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+h1{	
+	font-family: outfit;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	font-size: 27px;
+	padding:0 20px;
+}
+
+p{
+	font-family: outfit;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	font-size: 19px;
+	padding: 0 20px;
+
+}
