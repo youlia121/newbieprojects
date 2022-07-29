@@ -1,11 +1,11 @@
 body {
-	background-color: hsl(212, 45%, 89%); 
+	background-color: hsl(212, 45%, 89%);
 	height: 100vh;
 	padding: 0;
 	margin: 0;
 }
 
-.nienawidze_css{
+.nienawidze_css {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -23,7 +23,8 @@ body {
 	/*margin-left: auto;
 	margin-right: auto;*/
 }
-.qr img{
+
+.qr img {
 	width: 360px;
 	height: 360px;
 	align-content: center;
@@ -31,7 +32,7 @@ body {
 	border-radius: 10px;
 }
 
-.text{
+.text {
 	width: 360px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -41,15 +42,15 @@ body {
 
 }
 
-h1{	
+h1 {
 	font-family: outfit;
 	font-weight: 700;
 	color: hsl(218, 44%, 22%);
 	font-size: 27px;
-	padding:0 20px;
+	padding: 0 20px;
 }
 
-p{
+p {
 	font-family: outfit;
 	font-weight: 400;
 	color: hsl(220, 15%, 55%);
