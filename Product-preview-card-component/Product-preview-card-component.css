@@ -2,7 +2,7 @@ body {
 	background-color:hsl(30, 38%, 92%);
 	}
 
-.item{
+#back-wall{
 	height: 95vh;
 	display: flex;
 	flex-direction: column;
