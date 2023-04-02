@@ -1,0 +1,140 @@
+html {
+ background-image: url("pattern-background-desktop.svg");
+ background-repeat: no-repeat;
+ background-color: hsl(225, 100%, 94%);
+/* background-size: cover;*/
+}
+
+#window{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto;
+}
+
+#top img{
+	border-radius: 10px 10px 0px 0px;
+	size: cover; 
+	width: 500px;
+	align-content: center;
+}
+
+#bottom{
+	background-color: #ffffff;
+	width: 500px;
+	border-radius: 0px 0px 10px 10px; 
+	margin-top: -15px;
+	display: block;
+
+}
+
+#headline{
+	color: hsl(223, 47%, 23%);
+	font-family: Red Hat Display;
+	font-weight: 900;
+	text-align: center;
+	font-size: 26px;
+	padding-top: 10px;
+	margin-bottom: -5px;
+}
+
+#description{
+	font-family: Red Hat Display;
+	color:#868a9a;
+	font-weight: 500;
+	text-align: center;
+	padding: 0 70px;
+	margin-bottom: 30px;
+}
+
+#plan{
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #f8f9fe;
+	border-radius: 15px;
+	margin: 0 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#ikonka{
+	vertical-align:middle;
+	padding-left: 30px;
+
+}
+
+#details{
+	vertical-align:middle;
+	padding: 8px 100px 8px 0;
+}
+
+#title{
+	color:black;
+	margin-bottom: -10px;
+	font-family: Red Hat Display;
+	color: hsl(223, 47%, 23%);
+}
+
+#price{
+	color: hsl(224, 23%, 55%);
+	font-family: Red Hat Display;
+	color:#868a9a;
+}
+
+#change{
+	vertical-align:middle;
+	font-family: Red Hat Display;
+	padding-right: 30px;
+	color: hsl(245, 75%, 52%);
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+#change:hover {
+	cursor: pointer;
+	color:#746cea;
+	text-decoration: none;
+}
+
+#payment{
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(100, 100%, 100%);
+	text-align: center;
+	font-family: Red Hat Display;
+	font-weight: 500;
+	cursor: pointer;
+	font-size: 15px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: 30px 55px 0 55px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 20px 18px 0 #ddd8f7;
+}
+
+#payment:hover {
+	cursor: pointer;
+	background-color:#746cea;
+}
+
+#cancel{
+	text-align: center;
+	font-size: 15px;
+	font-family: Red Hat Display;
+	font-weight: 500;
+	color: hsl(224, 23%, 55%);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+#cancel:hover {
+	cursor: pointer;
+	color:hsl(223, 47%, 23%);
+}
